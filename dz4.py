@@ -1,4 +1,4 @@
-number = int(input('Введите целое положительное число'))
+number = int(input('введите целое положительное число'))
 max1 = number % 10
 number = number // 10
 while number > 0:

@@ -1,4 +1,4 @@
-plus = int(input('Введите выручку вашей фирмы в этом месяце'))
+plus = int(input('введите выручку вашей фирмы в этом месяце'))
 minus = int(input('Введите издержки вашей фирмы за этот месяц'))
 profit = int(plus - minus)
 rent = int(profit / minus)

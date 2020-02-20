@@ -1,7 +1,7 @@
-number = int(input('Введите время в секундах'))
-hour = number // 3600
-min = (number // 60) % 60
-sec = number % 60
+numberr = int(input('Введите время в секундах'))
+hour = numberr // 3600
+min = (numberr // 60) % 60
+sec = numberr % 60
 if hour < 10:
     hour = (f'0{hour}')
     if min < 10:
